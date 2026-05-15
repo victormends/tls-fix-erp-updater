@@ -56,7 +56,7 @@ Run the script and point it at the updater executable:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\fix-tls-override.ps1 `
-  -UpdaterPath "C:\YourProduct\Atu_Sistema.exe"
+  -UpdaterPath "C:\YourProduct\Updater.exe"
 ```
 
 The script self-elevates when needed.
